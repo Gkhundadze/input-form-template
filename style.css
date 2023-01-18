@@ -1,0 +1,32 @@
+.flex-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.input-wrapper {
+    margin-left: 15%;
+    margin-top: 15%;
+    padding: 20px;
+    background-color: rgba(10, 10, 10, .7);
+}
+.input-title h2 {
+    text-align: center;
+}
+.input-username,
+.input-password {
+    margin-bottom: 20px;
+}
+.input-username input,
+.input-password input {
+    padding: 10px 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    border: 2px solid #4d50a2;
+    background-color: rgba(230, 214, 214, 0.5);
+}
+.submit-button {
+    text-align: center;
+}
+.submit-button button {
+    padding: 5px 8px;
+}
